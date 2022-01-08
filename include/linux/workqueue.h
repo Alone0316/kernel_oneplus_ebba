@@ -678,8 +678,6 @@ int __init workqueue_init(void);
 
 #ifdef CONFIG_OEM_FORCE_DUMP
 extern void dump_workqueue(void);
-#else
-static void dump_workqueue(void) {}
 #endif
 
 #endif
